@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # initializing empty envelops
 
 necessityEnvelop = 0  # NEC, необходимые траты
