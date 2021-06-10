@@ -4,10 +4,10 @@ class Human:
         self.surname = surname
      
     def __str__(self):
-        return f'{self.name} {self.surname}' # self.name + '' + self.surname
+        return f'{self.name} {self.surname}' 
 
 class Employee(Human):
-    def __init__(self, name, surname, salary): # ctrl / . shift+enter
+    def __init__(self, name, surname, salary): 
         super().__init__(name, surname)
         self.salary = salary
 
