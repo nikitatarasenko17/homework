@@ -49,18 +49,20 @@
                     </div>
                     
                     <select id="select">
-                    <option value="0">select</option>
-
+                    <option value="0">All categories</option>
+                    
                     </select>
                     <input min="0" type="number" id='min'>
                     <input min="0" type="number" id='max'>
+                    <input type="radio"  checked id="stockIn" name="InStock" >
+                    <label for="contactChoice1">StockIn</label>
+                    <input type="radio" id="stockOut" name="InStock">
+                    <label for="contactChoice1">StockOut</label>
                     <a class = "btn btn-primary" id='filter'>
                         filter
                     </a>
-                        
-                    </div>    
 
-                <div class="row" id="container">
+                    <div class="row" id="container">
                 </div>
                                              
                 </div>
@@ -71,6 +73,7 @@
         
     <script src="js/items.js"></script>
     <script src="js/main.js"></script>
+       
     </body>
 </html>
 
